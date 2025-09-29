@@ -1,0 +1,131 @@
+-This is an HTML comment-this is not displayed on page; we can use this as notes for ourself or others-->
+<!--Thisline tells the browser that this an HTML5 webpage, so the browser knows what to expect-->
+<!DOCTYPE html>
+<!-- the html tag follows the doctype tag and hold the page content; lang=een helps the browser and accessibility programs knwo the language that webpage was written in-->
+ <html lang="en">
+    <!--head section has configuration information primarily for the browser and serch engines-->
+    <head>
+        <!--this tells the browser that pretty much any character from any language may be on our webpage-->
+        <meta charset="UTF-8">
+        <!--this is the first stepmin responsive design- this helps the page render properly on a mobile device -->
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <!-- the text between the title tag is what appears in the browser tab; short,sweet and descriptive-->
+        <title>Me</title>
+
+        <!--this is where we store our embeded css styles;-->
+        <style>
+            /*start out with global styles, and then get more specfic */
+            body{
+                /* 3 ways to set up colors- named colors "red" or "green", rgb-red/green/blue
+                combinations, hex values-combo of letters and numbers that magically relate to colors */
+                background-color: rgb(237, 194, 158);
+                /*change+the text color to something lighter */ 
+                color: purple;
+                /*change the font for the whole page, unless a more specific change is made on an element*/
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+
+            /*this will apply to all paragraph -p- tags on the page*/
+            p{
+             color:mediumvioletred   
+            }
+            h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color:slateblue
+            }
+        </style>
+    <!--the closing head tag-->
+    </head>
+
+    <!--the body section is where the content goes -text,images, videos-->
+    <body>
+        <!--header is a semantic tag that helps organize our content and is typically at the top of the page
+        header can have logo,menu,page title-->
+        <header>
+            <!--h1 is the top level heading tag; by default the text is larger and bold; there should be 1 and only 1 h1 tag on the page-->
+            <h1>All of Xiu</h1>
+        </header>
+
+        <!--main has the core content-->
+        <main>
+            <!--this is the paragraph tag- by deafault it offers spacing around the text-->
+            <p>
+                I enjoy peace and love. We deserve freedom! I love my man so much. I love to be happy.
+            </p>
+            
+            <!--subheading for the history of html; h2 is the second level heading- by deafult bold and a bit smaller than h1  -->
+            <h2>My story</h2>
+            
+            <!--create an unordered list to show the dates of HTML versions with bullet points-->
+            <u1>
+               <!--li is the listitem- each item in the lsit should be in its own list tags--> 
+               <li>I used to play the fluet and violin</li>
+               <li>I come from immgrant parents that have been deported</li>
+               <li>In high school I fell in love with graphic design</li>
+            </u1>
+ 
+            <!--images are displayed using the img tag
+            Src- the file name- us relative paths, such as./images/
+                the-image-file-name.image-extension-->
+            <img src="./Images.html/IMG_D5C2CE5ADA3A-1.jpeg" alt="HTML versus CSS compariso">
+            <img src="./Images.html/MOMO.jpg" alt="HTML versus CSS comparison">
+            
+           <!--jump into Css information-->
+           <h2>The things of Xiu</h2>
+
+           <p>I never really thought of anything when I got into graphic deisgn. 
+            I just wanted to create stuff on the computer that are limited on the paper. I hope
+             to get my degree soon to start another degree. We deserve peace and love forever.</p>
+             
+             <!--h3 is the 3rd level heading, a little smaller than h2-->
+             <h3>Cool things </h3>
+
+             <u1> 
+                <li>You can make homemade glue with just flour :3</li>
+                <li>You can grow silly beards with just eyebrow serum. Not true but a goatee works out </li>
+                <li>When you go to Jollibee you can get a lettuce wrap 😹</li>
+
+             </u1>
+
+             <h3>Basic Structures</h3>
+
+             <!--pre tags leave the content inside alone-the browser will not move the 
+             conetnt onto the same line,etc--->
+             <pre>
+    selector{
+        property:value;
+    }
+             </pre>
+
+             <h4 id="h4cssel"Anything that matters</h4>
+             <u1>
+                <li>Free the children from wars</li>
+                <li>SCREW ICE 🐷</li>
+                <li>All I see is Love and Peace</li>
+             </u1>
+             
+             <!--Inline css style- use the style tag and then set property; value;-->
+             <h4 style="color: rgb(3, 82, 74);font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Ways to be happy :3</h4>
+
+             <u1>
+                <li>Read a Book</li>
+                <li style="color:crimson;">Talk to someone</li>
+                <li style="color: rgb(126, 19, 55);">Go outside</li>
+             </u1>
+
+            <!--div is division of content-->
+            <div></div>
+        </main>
+
+        <!--footer is a semantic tag that helps organize our content and is typically at the bottom of the page-->
+
+        <footer>
+
+        </footer>
+
+    <!--the closing body tag should be the next to last tag on the web page-->
+    </body>
+
+<!--this closing html tag is the last line of our webpage-->
+</html>
